@@ -1,0 +1,66 @@
+.flex-it {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit";
+  height: 200vh;
+  background-color: hsl(217deg, 54%, 11%);
+  color: #fff;
+}
+body .container {
+  background-color: hsl(216deg, 50%, 16%);
+  padding: 1.2rem;
+  border-radius: 10px;
+  width: 350px;
+}
+body .container .line {
+  height: 2px;
+  border-radius: 1px;
+  width: 100%;
+  background-color: hsl(215deg, 32%, 27%);
+  margin-bottom: 15px;
+}
+body .container .lower-container {
+  display: flex;
+  align-items: center;
+}
+body .container .lower-container img {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 12px;
+}
+body .container .lower-container span:nth-child(3) {
+  color: hsl(178deg, 100%, 50%);
+}
+body .container .upper-container h1 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body .container .upper-container img {
+  width: 100%;
+}
+body .container .upper-container .price-date {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+body .container .upper-container .price-date div {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

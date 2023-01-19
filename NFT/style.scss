@@ -1,0 +1,74 @@
+$primary-color:hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$background-color:hsl(217, 54%, 11%);
+$card-background:hsl(216, 50%, 16%);
+$line-color:hsl(215, 32%, 27%);
+.flex-it {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size:18px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit";
+    height: 200vh;
+    background-color:$background-color ;
+    color:#fff;
+    
+.container {
+    background-color:$card-background ;
+    padding:1.2rem;
+    border-radius: 10px;
+    width: 350px;
+   
+    .line {
+        height:2px;
+        border-radius: 1px;
+        width: 100%;
+        background-color: $line-color;
+        margin-bottom: 15px;
+    }
+    .lower-container {
+        display: flex;
+    align-items: center;
+        img {
+            border:1px solid white;
+            border-radius: 50%;
+            width: 40px;
+            margin-right: 12px;
+        }
+       span:nth-child(3) {
+       color:$cyan
+       }
+    }
+.upper-container {
+    h1 {
+        font-size:20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    .price-date {
+        margin-top:20px;
+        margin-bottom: 25px;
+        div {
+            color:$cyan;
+            font-weight: 700;
+        }
+    }
+}
+}
+}
